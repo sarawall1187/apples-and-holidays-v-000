@@ -65,8 +65,7 @@ def all_holidays_with_bbq(holiday_hash)
  holiday_hash.collect |season, supply_array|
   if supply_array.include?("BBQ")
     return season
-    
- 
+ end
 end
 
 
