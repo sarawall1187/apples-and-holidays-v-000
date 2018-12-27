@@ -66,7 +66,7 @@ bbq_holidays = []
  holiday_hash.each do |season, holidays|
    holidays.each do |holiday_name, supply_array|
   if supply_array.include?("BBQ")
-     return holiday_name
+     bbq_holidays.push(holiday_name)
    end
   end
  end
