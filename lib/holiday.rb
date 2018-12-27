@@ -53,6 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
  holiday_hash.each do |season, holiday_name|
    season[holiday_name].to_s.capitalize!.split.join
+ end
 end
 
 def all_holidays_with_bbq(holiday_hash)
