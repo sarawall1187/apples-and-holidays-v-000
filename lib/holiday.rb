@@ -56,6 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_name.to_s[supply_array.split.capitalize!.join]
   end
  end
+ holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
